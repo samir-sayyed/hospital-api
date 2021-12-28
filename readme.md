@@ -20,7 +20,7 @@
 
 ##### # Get the latest snapshot
 
-`git clone https://github.com/Subhankr12/hospital-api.git myproject`
+`git clone https://github.com/samir-sayyed/hospital-api.git myproject`
 
 ##### # Change directory
 
@@ -38,6 +38,7 @@
 
 ## How to use 
 - For registering doctor use - http://localhost:8000/api/v1/doctors/register
+ 
   -Enter following details
     1. name
     2. phone
@@ -47,17 +48,20 @@
     6. confirm_password
 
 - For log in doctor use - http://localhost:8000/api/v1/doctors/login
+ 
   -Enter following details
     1. name
     2. password
 
 - For registering patients use - http://localhost:8000/api/v1/patients/register
+ 
   -Enter following details
     1. name
     2. phone
     3. address
 
 - For creating reports for patients use - http://localhost:8000/api/v1/patients/:id/create_report
+ 
   -Enter following details
     1. doctor
     2. status
@@ -65,10 +69,11 @@
 
 - For seeing all reports of patients use - http://localhost:8000/api/v1/patients/:id/all_reports
 
+- For all the reports of all the patients filtered by a specific status use  http://localhost:8000/api/v1//reports/:status
 
 ## Folder Structure
 
-app <br>
+## Hospital API <br>
 ├── config <br>
 │ --- ├── mongoose.js <br>
 │ --- └── passport-jwt-strategy.js <br>
