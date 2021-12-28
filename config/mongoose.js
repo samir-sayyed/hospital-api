@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 // connect to mongodb
-mongoose.connect("mongodb://localhost/hospital");
+mongoose.connect("mongodb+srv://samirsayyed:786Samir!@cluster1.7ryvl.mongodb.net/myFirstDatabase?retryWrites=true&w=majority");
 
 //get the connection
 const db = mongoose.connection;
